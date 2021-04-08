@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.video {
+  height: 400px;
+  width: 710px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
