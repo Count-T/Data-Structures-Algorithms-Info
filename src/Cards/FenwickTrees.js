@@ -34,12 +34,12 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/fenwicktrees">
+        <CardHeader title="Fenwick Trees" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="https://i.stack.imgur.com/QcUPG.png"
         alt=""
       />
       <CardContent>

@@ -34,12 +34,12 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/hashtables">
+        <CardHeader title="Hash Table" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="https://miro.medium.com/max/2720/1*0hB9D1ObAgZGUe98UQskTQ.png"
         alt=""
       />
       <CardContent>

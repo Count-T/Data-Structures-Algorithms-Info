@@ -1,5 +1,6 @@
 import React from "react";
 import CardsLayout from "../CardsLayout";
+import "../App.css";
 function Home() {
   return (
     <div>

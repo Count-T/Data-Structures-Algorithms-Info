@@ -34,17 +34,17 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/queues">
+        <CardHeader title="Queues" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="https://iq.opengenus.org/content/images/2019/05/pq.png"
         alt=""
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Store multiple values
+          Store values with nodes
         </Typography>
       </CardContent>
     </Card>

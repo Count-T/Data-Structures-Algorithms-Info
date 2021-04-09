@@ -34,17 +34,17 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/priorityqueues">
+        <CardHeader title="Priority Queues" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="https://i.ytimg.com/vi/wptevk0bshY/maxresdefault.jpg"
         alt=""
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Store multiple values
+          Store values with nodes
         </Typography>
       </CardContent>
     </Card>

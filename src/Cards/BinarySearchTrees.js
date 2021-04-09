@@ -34,12 +34,12 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/binarysearchtrees">
+        <CardHeader title="Binary Search Tree" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="http://www.crondose.com/wp-content/uploads/2016/06/bst-8.png"
         alt=""
       />
       <CardContent>

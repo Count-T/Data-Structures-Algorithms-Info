@@ -3,7 +3,7 @@ import { Grid } from "@material-ui/core";
 function ArraysInfo() {
   return (
     <div>
-      <h1>Static and Dynamic Arrays</h1>
+      <h1>Hash Tables</h1>
       <Grid container>
         <Grid className="box" item xs={6}>
           Topic

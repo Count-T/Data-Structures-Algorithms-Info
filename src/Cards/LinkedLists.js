@@ -34,17 +34,17 @@ export default function RecipeReviewCard() {
 
   return (
     <Card className={classes.root}>
-      <Link to="/arrays">
-        <CardHeader title="Static and Dynamic Arrays" />
+      <Link to="/linkedlists">
+        <CardHeader title="Linked Lists" />
       </Link>
       <img
         style={{ height: 300, width: 300 }}
-        src="http://michaelmurray.ca/wp-content/uploads/2017/01/box.jpg"
+        src="https://images.idgesg.net/images/article/2020/03/jw_pt5fig1-100837201-medium.jpg"
         alt=""
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Store multiple values
+          Store values with nodes
         </Typography>
       </CardContent>
     </Card>
