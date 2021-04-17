@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-function ArraysInfo() {
+export default function PriorityQueuesInfo() {
   return (
     <div>
       <h1>Priority Queues</h1>
@@ -15,5 +15,3 @@ function ArraysInfo() {
     </div>
   );
 }
-
-export default ArraysInfo;

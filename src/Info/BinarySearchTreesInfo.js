@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-function ArraysInfo() {
+export default function BinarySearchTreesInfo() {
   return (
     <div>
       <h1>Binary Search Tree</h1>
@@ -15,5 +15,3 @@ function ArraysInfo() {
     </div>
   );
 }
-
-export default ArraysInfo;

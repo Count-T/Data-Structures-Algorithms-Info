@@ -9,6 +9,7 @@ import BinarySearchTrees from "./Cards/BinarySearchTrees";
 import HashTables from "./Cards/HashTables";
 import FenwickTrees from "./Cards/FenwickTrees";
 import { Grid } from "@material-ui/core";
+import "./App.css";
 function CardsLayout() {
   return (
     <div className="cards">

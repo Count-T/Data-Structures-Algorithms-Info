@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-function ArraysInfo() {
+export default function FenwickTreesInfo() {
   return (
     <div>
       <h1>Fenwick Trees</h1>
@@ -15,5 +15,3 @@ function ArraysInfo() {
     </div>
   );
 }
-
-export default ArraysInfo;

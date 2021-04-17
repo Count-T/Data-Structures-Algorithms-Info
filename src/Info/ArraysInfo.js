@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-function ArraysInfo() {
+export default function ArraysInfo() {
   return (
     <div>
       <h1>Static and Dynamic Arrays</h1>
@@ -69,5 +69,3 @@ function ArraysInfo() {
     </div>
   );
 }
-
-export default ArraysInfo;

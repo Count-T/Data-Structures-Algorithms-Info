@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-function TimeComplexityInfo() {
+export default function TimeComplexityInfo() {
   return (
     <div>
       <h1>Time Complexity</h1>
@@ -131,5 +131,3 @@ function TimeComplexityInfo() {
     </div>
   );
 }
-
-export default TimeComplexityInfo;
