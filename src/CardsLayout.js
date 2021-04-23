@@ -13,32 +13,38 @@ import "./App.css";
 function CardsLayout() {
   return (
     <div className="cards">
-      <Grid container>
-        <Grid item xs={4}>
+      <Grid container spacing={24} align="center">
+        <Grid item md={4}>
           <TimeComplexity />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <Arrays />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <LinkedLists />
         </Grid>
-        <Grid item xs={4}>
+      </Grid>
+      <br />
+      <Grid container align="center">
+        <Grid item md={4}>
           <Stacks />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <Queues />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <PriorityQueues />
         </Grid>
-        <Grid item xs={4}>
+      </Grid>
+      <br />
+      <Grid container align="center">
+        <Grid item md={4}>
           <BinarySearchTrees />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <HashTables />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4}>
           <FenwickTrees />
         </Grid>
       </Grid>

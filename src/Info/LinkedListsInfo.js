@@ -60,7 +60,7 @@ export default function LinkedLists() {
           <div>
             <iframe
               className="video"
-              src="https://streamable.com/e/hb5m2a"
+              src="https://streamable.com/e/hb5m2a?loop=0"
             ></iframe>
           </div>
         </Grid>
@@ -72,7 +72,7 @@ export default function LinkedLists() {
         <Grid className="box" item xs={6}>
           <iframe
             className="video"
-            src="https://streamable.com/e/xygijv"
+            src="https://streamable.com/e/xygijv?loop=0"
           ></iframe>
         </Grid>
       </Grid>
